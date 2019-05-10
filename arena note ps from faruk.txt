@@ -1,0 +1,138 @@
+IE 306 PS 30.04.19
+
+ARENA
+
+Project Bar
+Basic Process
+
+Create
+Double Click
+Entity Type, Customer  Type: Random(Expo), Value = Mean= 1/Lambda
+---
+
+Resource 
+Altta
+Name- HairDresser
+Type=Fixed Capacity
+Capacity-3
+
+Name- Makicurist
+Type=Fixed Capacity
+
+
+--
+
+Process
+Name-
+Resource Add, Which Resorce add it, 
+Delay Type Normal,Minutes,Mean 15, Std Dev 3 
+
+
+
+---
+
+Assign Attribute,
+Type:Attribute,Attribute Name HairCut
+Expression Type Uniform, Min Max,
+UNIF(0,1) <= 0.4
+
+
+Expression Type Discrete Probability
+
+Expression Type DISC(0,9,0,1,0)...
+
+Assingment add
+Expression Type: Entity Reliable, User-Defined Attribute Value, (görmesi için kapa aç,)
+Add to end of list,
+Entity Related Variables
+Attribute
+UserDefinedAttributeValue
+
+HairCut+HairDrye+Manicure
+---
+
+
+Kutuları Birbirine Bağlama With Decide
+
+2 way for,
+Sağ tık build expression
+USer Defined Attribute,
+(HairCut+HairDye)>0 
+
+
+
+
+
+
+
+----------
+
+
+
+
+
+
+Process
+Manicurring
+Seize Delay Release
+Normal
+Mean 10  Std Dev 2
+Action Seize Delay Release  pRiority Medium(2)
+
+
+---
+
+Record
+At Count
+
+Build expression
+Entity Related 
+    Entity Related
+    
+    Count
+    
+ 
+ 
+---
+Run
+Number Of Replications
+Time UNits
+HoursPerDay
+Base Time Units: Minutes
+Run
+---
+
+
+For Priority Change That Process from Medium to High
+
+
+Sigh
+
+---
+
+
+-Question2
+
+
+Arrival
+ASsignArrivalTime
+
+
+WaitForParkingLot
+Advanced Process
+    Type:Scan for condition
+    Expression Type:Resource- Usage- 
+    
+    
+    DateAndTimeFunctions
+    
+
+Resource
+    Parking Lot of Capacity 40
+    
+
+
+    MinutesToBaseTime
+
+---
+Dispose
