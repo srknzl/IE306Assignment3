@@ -1,0 +1,4 @@
+step2-  120 min, 1 counter 1 queue, normal arrival rate
+step4-  120 min, 3 counter 3 queue, normal arrival rate
+step5-  120 min, 3 counter 3 queue, %50 increased arrival rate
+step6-  60 min, 3 counter 3 queue , %50 increased arrival rate
