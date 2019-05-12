@@ -4,8 +4,8 @@
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date : 5/10/2019
-Analyst: Sesdyn                                                      Model revision date: 5/10/2019
+Project: Unnamed Project                                             Run execution date : 5/12/2019
+Analyst: Sesdyn                                                      Model revision date: 5/12/2019
 
 Replication ended at time      : 120.0 Minutes 
 Base Time Units: Minutes
@@ -15,15 +15,15 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Moviegoer.VATime                            .00000     .00000     .00000     .00000        349    
-Moviegoer.NVATime                           .00000     .00000     .00000     .00000        349    
-Moviegoer.WaitTime                          .43788     (Corr)     .00000     3.0108        349    
-Moviegoer.TranTime                          .00000     .00000     .00000     .00000        349    
-Moviegoer.OtherTime                         .58453     (Corr)     .50000     1.0000        349    
-Moviegoer.TotalTime                         1.0224     (Corr)     .50000     4.0108        349    
-Join Counter Queue2.Queue.WaitingTime       .38103     (Insuf)    .00000     3.0108        102    
-Join Counter Queue1.Queue.WaitingTime       .51895     (Insuf)    .00000     2.5546        143    
-Join Counter Queue3.Queue.WaitingTime       .38217     (Insuf)    .00000     2.5965        104    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        152    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        152    
+Moviegoer.WaitTime                          .26835     (Insuf)    .00000     2.0283        152    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        152    
+Moviegoer.OtherTime                         1.0000     (Insuf)    1.0000     1.0000        152    
+Moviegoer.TotalTime                         1.2683     (Insuf)    1.0000     3.0283        152    
+Join Counter Queue2.Queue.WaitingTime       .25512     (Insuf)    .00000     1.4729         52    
+Join Counter Queue1.Queue.WaitingTime       .33977     (Insuf)    .00000     2.0283         64    
+Join Counter Queue3.Queue.WaitingTime       .15691     (Insuf)    .00000     .98583         39    
 Join Counter Queue.Queue.WaitingTime            --         --         --         --          0
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
@@ -32,19 +32,19 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               2.9735     (Corr)     .00000     10.000     .00000    
-counter1.NumberBusy                         .67917     (Insuf)    .00000     1.0000     .00000    
+Moviegoer.WIP                               1.6477     (Insuf)    .00000     7.0000     7.0000    
+counter1.NumberBusy                         .53093     (Insuf)    .00000     1.0000     1.0000    
 counter1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter1.Utilization                        .67917     (Insuf)    .00000     1.0000     .00000    
-counter3.NumberBusy                         .52500     (Insuf)    .00000     1.0000     .00000    
+counter1.Utilization                        .53093     (Insuf)    .00000     1.0000     1.0000    
+counter3.NumberBusy                         .31963     (Insuf)    .00000     1.0000     1.0000    
 counter3.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter3.Utilization                        .52500     (Insuf)    .00000     1.0000     .00000    
-counter2.NumberBusy                         .49583     (Insuf)    .00000     1.0000     .00000    
+counter3.Utilization                        .31963     (Insuf)    .00000     1.0000     1.0000    
+counter2.NumberBusy                         .43101     (Insuf)    .00000     1.0000     1.0000    
 counter2.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter2.Utilization                        .49583     (Insuf)    .00000     1.0000     .00000    
-Join Counter Queue2.Queue.NumberInQueue     .32387     (Insuf)    .00000     4.0000     .00000    
-Join Counter Queue1.Queue.NumberInQueue     .61842     (Insuf)    .00000     5.0000     .00000    
-Join Counter Queue3.Queue.NumberInQueue     .33122     (Insuf)    .00000     6.0000     .00000    
+counter2.Utilization                        .43101     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue2.Queue.NumberInQueue     .11532     (Insuf)    .00000     2.0000     1.0000    
+Join Counter Queue1.Queue.NumberInQueue     .19982     (Insuf)    .00000     3.0000     3.0000    
+Join Counter Queue3.Queue.NumberInQueue     .05100     (Insuf)    .00000     1.0000     .00000    
 Join Counter Queue.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
@@ -62,16 +62,16 @@ Record Reneging Movie1 Customers                  0  Infinite
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          349.00    
-Moviegoer.NumberOut                         349.00    
-counter1.NumberSeized                       143.00    
-counter1.ScheduledUtilization               .67917    
-counter3.NumberSeized                       104.00    
-counter3.ScheduledUtilization               .52500    
-counter2.NumberSeized                       102.00    
-counter2.ScheduledUtilization               .49583    
-System.NumberOut                            349.00    
+Moviegoer.NumberIn                          159.00    
+Moviegoer.NumberOut                         152.00    
+counter1.NumberSeized                       64.000    
+counter1.ScheduledUtilization               .53093    
+counter3.NumberSeized                       39.000    
+counter3.ScheduledUtilization               .31963    
+counter2.NumberSeized                       52.000    
+counter2.ScheduledUtilization               .43101    
+System.NumberOut                            152.00    
 
 
-Simulation run time: 0.07 minutes.
+Simulation run time: 0.03 minutes.
 Simulation run complete.

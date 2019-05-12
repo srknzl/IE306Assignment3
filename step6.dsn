@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=e:\Terms\Term5\ie306\projects\project3\Git\IE306Assignment3
-DBQ=E:\Terms\Term5\ie306\projects\project3\Git\IE306Assignment3\ie30602-hw3_basecase -2movies_renege.accdb
+DefaultDir=E:\Terms\Term5\ie306\projects\project3\Git\IE306Assignment3
+DBQ=E:\Terms\Term5\ie306\projects\project3\Git\IE306Assignment3\step6.accdb
